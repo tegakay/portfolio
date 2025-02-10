@@ -7,7 +7,7 @@ const Hero = () => {
         <h4 className="text-gray-500 text-lg font-semibold">Hello,</h4>
         <h1 className="text-5xl font-bold text-black mt-2">I'M OGHENEBRUME KOFI</h1>
         <p className="text-gray-700 text-xl mt-4">
-          I am a Software Engineer & Designer
+          I am a Software Engineer
         </p>
 
         {/* Buttons */}
