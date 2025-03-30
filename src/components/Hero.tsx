@@ -1,4 +1,5 @@
 import React from 'react'
+import DownloadResume from './DownloadResume'
 
 const Hero = () => {
   return (
@@ -15,9 +16,10 @@ const Hero = () => {
           <button className="px-6 py-3 border border-black rounded-md text-black hover:bg-black hover:text-white transition">
             Hire me
           </button>
-          <button className="px-6 py-3 bg-black text-white rounded-md hover:opacity-80 transition">
+          {/* <button className="px-6 py-3 bg-black text-white rounded-md hover:opacity-80 transition">
             Download CV
-          </button>
+          </button> */}
+          <DownloadResume/>
         </div>
       </div>
 
